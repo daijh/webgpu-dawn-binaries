@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 
-chromium_version="136.0.7066.1"
+chromium_version="142.0.7444.9"
 build_path=build_${chromium_version}
 
 echo -n ${chromium_version} > chromium_version.txt
